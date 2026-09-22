@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang docker 镜像安全扫描漏洞
+简介：golang nil channel 阻塞特性，nil channel 读写永久阻塞，理解 nil channel 行为做逻辑控制。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/86945045.html
+
+原标题：Git 误提交撤销回退实操教程
+简介：golang 配置中心 apollo go 客户端，apollo go sdk 读取配置，配置变更自动热更新无需重启服务。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/27279670.html
+
+原标题：安全笔记：CSP内容安全策略配置实践
+简介：golang tcp keepalive 参数程序配置，go 程序设置 tcp keepalive，操作系统 tcp 保活参数，清理僵死连接。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/41584068.html
+
+原标题：WSL 内存上限限制防止资源耗尽
+简介：golang http cookie jar 会话处理，客户端 cookie jar 自动管理 cookie，处理登录态会话。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/37237269.html
+
+原标题：开发记录：分布式ID生成器实现与压力测试
+简介：golang 跨平台系统差异处理方案，处理 windows linux mac 路径、信号、文件权限差异，代码跨平台兼容。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/41550227.html
+
+原标题：Debug：异步任务堆积，服务响应越来越慢
+简介：golang go 逃逸分析实操查看，go build‑gcflags=-m 查看逃逸分析，减少堆分配优化程序性能。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/84657915.html
+
+原标题：golang github actions 完整工作流示例
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/93802512.html
+
+原标题：实践：消息队列死信处理业务落地实践
+简介：浏览器缓存强制刷新方案，设置 HTTP 缓存头，处理浏览器缓存旧静态资源，让用户加载更新后的页面。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/04056037.html
+
+原标题：golang 系统设计 id 生成器选型对比
+简介：golang arp 缓存读取操作，读取系统 arp 缓存表，获取 ip 对应的 mac 地址信息。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/41381716.html
+
+原标题：golang 集成测试启动测试数据库
+简介：golang alertmanager 告警配置实践，alertmanager 配置告警路由，告警发送邮件钉钉，异常及时通知运维。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/76966669.html
+
+原标题：部署复盘：GitHubActions完整自动化配置
+简介：golang http cookie jar 会话处理，客户端 cookie jar 自动管理 cookie，处理登录态会话。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/09424245.html
+
+原标题：golang 日志脱敏敏感字段过滤
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/54782342.html
+
+原标题：实战：数据库索引设计，复合索引最佳实践
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/19304535.html
+
+原标题：golang url 参数编码处理方案
+简介：golang loki 日志收集 go 服务集成，日志输出适配 loki，标签携带 traceId，日志集中检索排查问题。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/09413334.html
+
+原标题：全平台系统环境变量配置
+简介：前后端会话登录状态持久化，实现登录状态持久存储，重启服务登录状态不丢失，保障会话稳定性。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/31642301.html
+
+原标题：golang 系统设计内部 rpc 接口设计原则梳理
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/98290041.html
+
+原标题：golang k8s 滚动更新回滚策略
+简介：golang csv 百万级数据导入数据库，流式读取 csv 分批写入数据库，避免一次性加载全部数据。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/98196079.html
+
+原标题：golang 系统设计会话共享多实例部署
+简介：golang os 打开文件 O_APPEND O_CREATE 标志，OpenFile 标志位，控制文件创建追加截断行为。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/97073564.html
+
+原标题：方案对比：RPC、HTTP、gRPC场景选型分析
+简介：golang go 优雅处理信号丢失场景，处理信号丢失、信号被忽略，保障程序可以正常接收终止信号。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/79121245.html
+
+原标题：golang 系统设计日志检索排查线上问题实操技巧
+简介：golang trace 工具采集 go 程序执行轨迹，go trace 采集程序完整调度轨迹，分析协程调度阻塞问题。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/87992023.html
+
+原标题：OOMKilled 容器被杀完整排查
+简介：golang gitlab ci go 项目流水线编写，gitlab ci 流水线执行单元测试、静态检查、构建推送镜像。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/07634245.html
+
+原标题：开发复盘：数据库批量更新优化性能实践
+简介：golang 项目 makefile 脚本编写，编写 Makefile 脚本，封装编译、测试、构建命令，简化项目操作。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/99120534.html
+
+原标题：入门实践：Git分支创建切换合并完整演示
+简介：golang go math 大数高精度计算，math/big 处理超大整数、高精度浮点数，金额大数运算。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/10233463.html
+
+原标题：性能笔记：DNS缓存优化减少域名解析开销
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/98304538.html
+
+原标题：包管理器依赖缓存清理
+简介：golang 容器信号转发处理问题修复，docker/k8s 正确转发 SIGTERM 信号，保证 go 程序收到信号优雅退出。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/43857867.html
+
+原标题：记一次内存Swap被大量使用系统响应缓慢
+简介：golang go 代码覆盖率线上统计，单元测试覆盖率统计，找出未测试代码分支，提升测试质量。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/05785678.html
+
+原标题：架构笔记：缓存雪崩缓存击穿架构防护方案
+简介：依赖安装失败全方位排错，从网络、镜像源、权限、版本多角度，定位依赖安装失败，给出对应修复手段。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/48675677.html
+
+原标题：Hands‑on：简易连接池原型实现理解原理
+简介：golang go 程序权限最小化运行，容器内使用普通用户运行程序，拒绝 root 运行提升安全等级。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/15699911.html
+
+原标题：golang 系统设计内部服务调用超时设置要点
+简介：golang time 时间比较 Before After Equal，时间比较不要直接减，使用内置方法判断时间先后。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/59022643.html
+
+原标题：架构复盘：供应链安全架构依赖包风险治理
+简介：golang prometheus client 业务埋点实操，prometheus client‑go 业务埋点，计数器、仪表盘、直方图指标开发。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/93452435.html
+
+原标题：运维笔记：系统文件句柄数调整生产配置
+简介：golang jwt 令牌刷新逻辑实现，实现 JWT 双令牌机制，access 短期有效 refresh 刷新令牌，实现无感续期登录。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/15566809.html
+
+原标题：Troubleshoot：MySQL字符集utf8非utf8mb4emoji报错
+简介：golang go 接口定义原则小接口，go 小接口设计原则，接口尽量小，只定义必要方法，提升代码灵活性。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/49138114.html
+
+原标题：golang gin 路由分组权限管控
+简介：golang 处理连接被重置 reset 错误，识别 connection reset by peer，对端关闭连接异常处理逻辑。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/38024703.html
+
+原标题：golang context 上下文传参讲解
+简介：golang gorm 事务手动回滚提交，手动控制事务流程，业务异常主动回滚，保障数据操作原子性。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/14572368.html
+
+原标题：golang 系统设计防重复提交实现
+简介：程序信号中断退出处理逻辑，捕获系统中断信号，执行资源释放、关闭连接，实现程序优雅退出。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/04802572.html
+
+原标题：Practice：实现请求重试组件支持退避策略
+简介：golang go 服务蓝绿发布实践思路，蓝绿两套实例，流量一键切换，回滚快速降低发布风险。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/36126092.html
+
+原标题：golang 系统设计多租户数据隔离方案
+简介：golang go 逃逸分析实操查看，go build‑gcflags=-m 查看逃逸分析，减少堆分配优化程序性能。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/74666924.html
+
+原标题：Git 混乱提交历史清理方法
+简介：golang gorm 批量插入性能调优，GORM 批量插入优化，调整批次大小，提升大量数据插入数据库速度。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/71570358.html
+
+原标题：golang 系统设计 git 工作流本地开发提交流程
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/04901582.html
+
+原标题：golang docker 运行 etcd 本地测试
+简介：golang go 容器 heap 堆实现优先队列，实现 heap 接口，构建优先队列，任务优先级调度。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/51358125.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：排错：容器OOM被杀死，日志看不到任何输出
+简介：golang go 项目 CI github actions 配置，github actions 实现 go 项目 ci，自动测试、代码检查、编译打包镜像。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/84802588.html
+
+原标题：从零编写简易 CLI 命令行工具
+简介：时间同步修复令牌提前过期，服务器时间不同步导致 JWT 令牌提前过期，同步系统时间解决异常。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/20145803.html
+
+原标题：记一次分库分表路由计算错误数据写入错误分片
+简介：预编译 SQL 防注入实现，使用预编译 SQL 方式，杜绝 SQL 注入风险，提升数据库访问层安全能力。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/82679258.html
+
+原标题：Hands‑on：shell脚本批量自动化运维小工具
+简介：golang 消息队列实现事务消息方案，基于 kafka 实现事务消息，业务执行成功才对外投递消息。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/61468369.html
+
+原标题：开发记录：业务错误告警邮件通知组件实践
+简介：golang hertz 性能优化参数调优，hertz 连接池、缓冲区参数调优，最大化接口吞吐性能。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/80791479.html
+
+原标题：安全实践：输入输出双向过滤安全最佳实践
+简介：golang consul 服务发现简单示例，对接 Consul 实现服务注册发现，微服务实例自动感知。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/29313687.html
+
+原标题：Debug：请求头过大Nginx拒绝连接报错
+简介：golang go regexp 正则预编译，regexp.MustCompile 预编译正则，不要循环内部编译正则，节省 CPU。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/58912690.html
+
+原标题：记一次限流组件误配置把正常用户拦截
+简介：Shell 脚本自动化命令编写，讲解 Shell 基础语法，编写自动化脚本，完成批量执行、文件处理，解放重复手工操作。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/60137035.html
+
+原标题：Debug：请求头过大Nginx拒绝连接报错
+简介：项目脚手架模板生成工具，搭建项目模板脚手架，一键生成标准化项目骨架，减少重复初始化工作。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/26013692.html
+
+原标题：Troubleshoot：DNS解析异常导致第三方调用失败
+简介：golang 本地消息表实现最终一致性，本地消息表 + 定时任务轮询，可靠消息实现分布式事务。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/52371447.html
+
+原标题：﻿【GettingStarted】从零搭建本地开发环境完整指南
+简介：golang prometheus http 接口暴露指标，暴露 prometheus metrics 接口，输出业务运行指标，接入监控告警系统。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/59368091.html
+
+原标题：golang 系统设计消息队列 topic 设计原则梳理
+简介：系统时间同步定时任务偏移，同步服务器系统时间，防止时间偏移，避免定时任务执行时间错乱。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/71647916.html
+
+原标题：正则表达式文本处理实战案例
+简介：golang go 信号处理优雅重启实现，USR2 触发程序重启，不关闭监听 socket 实现零停机升级。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/16890368.html
+
+原标题：golang mysql 行锁表锁场景区分
+简介：golang sync.Cond 条件变量使用，Cond 条件变量协程等待唤醒，复杂并发同步场景。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/52478268.html
+
+原标题：踩坑：分布式事务状态不一致数据两边不一致
+简介：golang hertz 反向代理与负载均衡，hertz 实现反向代理，内置负载均衡，快速搭建网关类服务。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/27035872.html
+
+原标题：业务幂等键设计防重复逻辑
+简介：golang go 爬虫 html 解析 goquery，goquery 解析 html 文档，css 选择器提取网页内容，实现网页数据抓取。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/71693681.html
+
+原标题：golang 系统设计分布式事务几种方案优缺点
+简介：golang hertz 性能优化参数调优，hertz 连接池、缓冲区参数调优，最大化接口吞吐性能。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/62690360.html
+
+原标题：Debug：请求头过大Nginx拒绝连接报错
+简介：golang go 模板执行错误捕获，捕获模板执行错误，防止模板错误直接返回空白页面。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/93791480.html
+
+原标题：OpenSource：开源项目版本发布CHANGELOG编写
+简介：Dockerfile 编写容器打包实战，讲解 Dockerfile 指令含义，编写镜像构建脚本，将本地项目打包成可分发容器镜像。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/48813692.html
+
+原标题：部署复盘：金丝雀发布流量切分实操方案
+简介：golang pprof 线上采集性能数据，线上环境采集 pprof 性能样本，不用停机，分析线上性能问题。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/26046583.html
+
+原标题：项目实践：搭建监控大盘查看系统关键指标
+简介：golang json number 数字不转 float64，使用 json.Number 保留原始数字字符串，防止大数字精度丢失。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/97924692.html
+
+原标题：Troubleshoot：磁盘inode耗尽，无法新建文件
+简介：golang testify mock 模拟接口，mock 接口生成 mock 对象，单元测试模拟外部依赖行为。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/37256568.html
+
+原标题：golang 系统设计 k8s 集群安全配置梳理
+简介：golang 子进程执行命令标准流处理，exec.Command 执行外部命令，处理 stdout stderr，防止缓冲区阻塞卡死。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/37146943.html
+
+原标题：Practice：实现异步任务结果查询回调实践
+简介：项目脚手架模板生成工具，搭建项目模板脚手架，一键生成标准化项目骨架，减少重复初始化工作。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/96704581.html
+
+原标题：echarts 大数据渲染性能调优
+简介：浏览器缓存强制刷新方案，设置 HTTP 缓存头，处理浏览器缓存旧静态资源，让用户加载更新后的页面。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/60602559.html
+
+原标题：golang 工具函数库封装思路
+简介：golang udp 服务端客户端开发示例，golang 实现 UDP 服务收发数据包，实现 udp 协议通信程序。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/60450255.html
+
+原标题：golang 系统设计性能瓶颈定位完整方法论
+简介：nodejs 读取大文件 csv 处理方案，Node 流式读取超大 CSV 文件，逐行解析，避免一次性加载全部文件。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/28037047.html
+
+原标题：排错：GitLFS大文件推送失败完整排障
+简介：golang ssh 客户端远程命令执行，golang ssh 连接远程服务器，执行 shell 命令，获取命令输出结果。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/96713602.html
+
+原标题：golang 系统设计文件存储选型对比
+简介：golang 高并发下锁优化减少竞争，减小锁粒度，读写锁替换互斥锁，无锁编程降低锁竞争开销。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/48280325.html
+
+原标题：golang 系统设计缓存与数据库一致性权衡
+简介：golang gin 路由分组权限管控，Gin 路由分组，不同分组绑定鉴权中间件，实现接口权限分组管控。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/14802475.html
+
+原标题：Troubleshooting：数据库主从延迟带来查询数据不一致
+简介：大文件导出内存溢出防护，流式处理大文件导出，边读边写，不把全部数据加载内存，规避 OOM。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/26168136.html
+
+原标题：golang kafka 消费者组原理讲解
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/37257691.html
+
+原标题：调试工具断点调试变量查看技巧
+简介：GraphQL 接口查询优化实操，体验 GraphQL 查询方式，按需获取字段，减少冗余数据传输，优化接口请求效率。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/41166922.html
+
+原标题：性能笔记：HTTP连接复用性能优化实践
+简介：golang 终端交互式输入选择，命令行交互式问答选择输入，实现交互式脚本工具。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/36114702.html
+
+原标题：安全笔记：请求头伪造IP漏洞防护
+简介：接口幂等性防重复请求实现，实现接口幂等逻辑，避免重复提交请求产生多条脏数据，保障业务数据安全。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/84513591.html
+
+原标题：golang 系统设计异步化改造业务流程思路
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/93702581.html
+
+原标题：架构笔记：业务操作审计日志系统架构设计
+简介：日志切割配置防止日志丢失，配置日志切割轮转策略，日志按大小时间切割，防止日志文件丢失。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/18146804.html
+
+原标题：Performance：数据库分表解决单表过大性能衰减
+简介：golang 自定义 pprof 扩展业务指标，扩展 pprof，输出业务自定义指标，结合性能数据分析业务状态。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/96691692.html
+
+原标题：golang 系统设计容量评估简单方法论
+简介：golang select 随机分支执行特性，多个 channel 就绪 select 随机选择，理解 select 行为特性。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/49913692.html
+
+原标题：Troubleshooting：数据库主从延迟带来查询数据不一致
+简介：golang gorm group by 分组统计，GORM 分组聚合统计，实现 count sum 等统计查询，快速完成统计业务。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/18999247.html
+
+三、实战开发｜Practice
+原标题：DevOps：多阶段构建Dockerfile最佳实践
+简介：golang go http 文件服务器自定义，http.FileServer 自定义 FileSystem，拦截访问，增加鉴权逻辑。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/15925492.html
+
+原标题：golang docker volume 数据持久化
+简介：golang 子进程执行命令标准流处理，exec.Command 执行外部命令，处理 stdout stderr，防止缓冲区阻塞卡死。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/93701570.html
+
+原标题：端口占用释放资源重启服务
+简介：nodejs 集成测试业务流程编写，编写 Node 集成测试，调用真实接口，验证完整业务链路执行结果。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/04135881.html
+
+原标题：golang 系统设计本地消息表可靠消息最终一致性
+简介：golang proto 可选字段处理方案，protobuf 可选字段正确判断，区分未赋值与零值，业务逻辑不出现偏差。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/37146056.html
+
+原标题：golang 系统设计 saga 事务补偿模式实现思路
+简介：golang context 包标准用法规范，context 传递请求元数据、超时、取消，函数第一个参数传入 ctx。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/15694469.html
+
+原标题：Hands‑on：简易配置热更新组件开发实践
+简介：golang k8s go 服务 yaml 资源编写，k8s 部署 go 应用 deployment service，健康检查资源限制配置。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/96726480.html
+
+原标题：webpack chunk 分包策略详解
+简介：golang 分布式 ID 雪花算法实现，Go 实现雪花算法，生成分布式全局唯一 ID，适配分库分表主键。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/11601472.html
+
+原标题：排错：CI流水线构建失败，日志无明确报错
+简介：WSL 内存上限限制防止资源耗尽，修改 WSL 内存上限配置，避免 WSL 占用主机大量内存资源。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/15924779.html
+
+原标题：站内邮件消息通知功能开发
+简介：golang excel 简单读写操作示例，Go 实现 Excel 简单读写，业务数据导出 Excel 报表。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/93784492.html
+
+原标题：Hands‑on：简易配置热更新组件开发实践
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/82690440.html
+
+原标题：golang docker 部署 redis 配置要点
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/37715782.html
+
+原标题：golang 系统设计代码安全审计简单思路
+简介：golang k8s go 服务 yaml 资源编写，k8s 部署 go 应用 deployment service，健康检查资源限制配置。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/91380377.html
+
+原标题：实践：消息队列死信处理业务落地实践
+简介：golang defer 执行顺序与坑点，defer 后进先出，循环内部 defer 陷阱，资源释放正确写法。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/26013251.html
+
+原标题：Practice：实现异步回调处理通用组件封装
+简介：HTTPS 证书过期更新操作，检测 HTTPS 证书到期，更新证书文件，恢复 HTTPS 服务正常访问。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/74599257.html
+
+原标题：排错：静态资源CDN缓存未刷新旧资源持续返回
+简介：golang context 包标准用法规范，context 传递请求元数据、超时、取消，函数第一个参数传入 ctx。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/08913581.html
+
+原标题：入门实践：简单数据脱敏处理示例
+简介：golang context.Background 与 TODO 区别，Background 主流程根上下文，TODO 不确定用哪个上下文时使用。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/15582472.html
+
+原标题：序列化版本不一致解析失败
+简介：golang go‑zero 缓存自动击穿防护，go‑zero 缓存组件自带缓存击穿防护，减少缓存层故障。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/53327505.html
+
+原标题：golang 系统设计压测数据构造方法实现
+简介：golang 链路追踪简易实现方案，简易链路追踪实现，传递 traceId，记录调用链路，方便排查慢调用。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/48345804.html
+
+原标题：golang 系统设计测试环境预发环境生产环境隔离
+简介：分页逻辑错误数据漏查修复，修复分页查询逻辑漏洞，解决分页漏数据、重复返回数据等业务问题。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/49368124.html
+
+原标题：设计思考：业务系统中什么时候不要用微服务
+简介：golang http client 全局变量复用，http Client 不要每次请求新建，复用 Transport 提升性能。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/87242016.html
+
+原标题：编译打包产物依赖分析解读
+简介：golang 内存 pprof 定位内存泄漏，pprof 分析内存快照，定位内存泄露对象，解决 Go 程序内存持续上涨。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/65898970.html
+
+原标题：golang base64 编码解码实操
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/31311902.html
+
+原标题：Hands‑on：简易代理服务器开发实践
+简介：上传接口跨域配置特殊适配，针对文件上传接口，适配复杂请求，修复上传场景下跨域失效问题。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/78112247.html
+
+原标题：golang ci 流水线单元测试集成测试
+简介：golang hertz http 框架快速上手，hertz 高性能 http 框架，路由中间件参数校验快速开发接口服务。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/32462268.html
+
+原标题：部署实践：服务器防火墙安全组配置实践
+简介：golang go xml 解析生成 xml 文档，encoding/xml 解析 xml，结构体标签映射 xml 节点属性。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/21484456.html
+
+原标题：设计思考：业务系统中什么时候不要用微服务
+简介：超大数据集分页性能优化方案，对比不同分页方案，针对海量数据集做分页性能优化，解决越翻越慢。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/83499255.html
+
+原标题：golang 系统设计开源项目协作流程梳理
+简介：golang go 种子初始化 rand 随机，rand 初始化种子，不初始化会固定序列，理解随机数种子行为。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/15037882.html
+
+原标题：golang http 服务性能优化调参
+简介：布隆过滤器数据高效去重实现，实现布隆过滤器组件，用于海量数据去重，节省大量内存空间。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/37146226.html
+
+原标题：golang 结构体深拷贝几种实现
+简介：任务执行锁防止并发重复调度，增加任务执行锁，多实例环境，防止同一个定时任务并发多次运行。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/71137704.html
+
+原标题：性能复盘：锁等待严重业务逻辑优化记录
+简介：代理 HTTPS 证书访问异常处理，配置代理根证书，解决代理环境 HTTPS 证书校验失败无法访问外网。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/37031472.html
+
+原标题：安全实践：SQL注入产生场景与完整防御手段
+简介：golang grpc 客户端拦截器封装，grpc 客户端拦截器实现请求统一签名、重试、链路信息透传。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/52357257.html
+
+原标题：golang docker 部署 mysql 注意事项
+简介：golang 内存持续上涨定位思路，区分内存泄漏、缓存占用、GC 参数不合理，分步定位内存持续走高。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/50702138.html
+
+原标题：坑点：限流计数器重置时机错误，绕过限流规则
+简介：ICMP 放通网络丢包问题修复，放开 ICMP 协议，解决 MTU 问题导致网络丢包，修复网络不稳定现象。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/93801471.html
+
+原标题：WebSocket 断线重连稳定优化
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/15014772.html
+
+原标题：golang mysql exists in 性能对比
+简介：golang cron 任务漂移问题处理，cron 任务执行超时导致任务漂移，通过分布式锁防止任务重叠执行。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/63782571.html
+
+原标题：开发记录：短信发送服务封装，失败重试策略
+简介：Docker 容器时区错误修复方案，修复 Docker 容器内部时区偏差，解决容器内时间不对引发业务逻辑异常。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/68945914.html
+
+原标题：Architecture：灰度、蓝绿、金丝雀发布架构对比
+简介：golang mongodb 索引优化慢查询处理，mongodb 创建索引，分析慢查询，优化聚合查询执行性能。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/61368127.html
+
+原标题：golang k8s 资源请求限制配置
+简介：golang tcp 四次挥手 go 程序行为，理解 tcp 四次挥手，处理连接关闭、重置、RST 包异常场景。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/48264722.html
+
+原标题：坑点：Docker资源限制未设置导致宿主机卡死
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/59367015.html
+
+原标题：从零搭建简单的身份登录模拟示例
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/59923671.html
+
+四、架构设计｜Architecture
+原标题：调优方案：容器CPU内存参数压测后调优
+简介：golang go 项目工程目录布局标准，不同规模 go 项目目录结构，小型项目中型项目大型微服务项目布局。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/48268148.html
+
+原标题：手写简易 MQ 理解消息存储消费
+简介：golang rate‑limiter 限流组件，封装通用 Go 限流组件，支持多算法，业务接口直接复用调用。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/26144588.html
+
+原标题：架构复盘：数据库主从架构设计与延迟应对方案
+简介：消息队列重复消费业务处理，实现消息消费幂等，处理重复投递消息，保证多次消费业务结果一致。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/51368023.html
+
+原标题：零基础理解会话、Cookie、Session基础
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/82767140.html
+
+原标题：方案对比：本地缓存vs分布式缓存架构取舍
+简介：golang go‑zero 中间件鉴权限流，go‑zero 自定义中间件，实现鉴权、限流、日志打印通用能力。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/14836923.html
+
+原标题：Troubleshooting：数据库索引失效，查询性能暴跌
+简介：golang 静态文件服务搭建教程，Go 搭建静态文件服务，托管静态资源，实现文件直接对外访问。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/15102460.html
+
+原标题：Performance：数据库索引优化常见错误案例
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/15927704.html
+
+原标题：Hands‑on：shell脚本批量自动化运维小工具
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/41246927.html
+
+原标题：golang 系统设计监控告警体系搭建思路
+简介：CI 持续集成自动构建流程，讲解 CI 基础概念，配置流水线实现代码提交后自动构建、测试，提升交付自动化。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/37279146.html
+
+原标题：golang 系统设计架构图绘图工具选型对比
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/16024713.html
+
+原标题：golang rate‑limiter 限流组件
+简介：日志输出规范防止磁盘爆满，控制日志输出量，配置日志切割轮转，避免日志文件无限增长占满磁盘。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/37235924.html
+
+原标题：Architecture：BFF后端聚合层架构适用场景
+简介：golang go 排序 sort 包自定义排序，sort 包实现自定义排序逻辑，对切片按业务规则排序。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/49357248.html
+
+原标题：git rebase 整理提交历史实操
+简介：golang 消息队列中间件选型对比，kafka redis‑stream rabbitmq，对比吞吐量可靠性选型参考。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/15908056.html
+
+原标题：Debug：分布式会话时钟不同步令牌提前失效
+简介：Docker Compose 一键搭建本地栈，使用 Compose 编排多个容器，一键拉起全套开发依赖服务。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/48568115.html
+
+原标题：Debug：并发场景下数据覆盖丢失问题定位
+简介：golang interface {} 类型断言类型转换，类型断言 ok 模式，避免断言失败触发 panic。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/29125011.html
+
+原标题：新手教程：本地项目初始化gitignore配置
+简介：axios 二次封装请求拦截处理，对 axios 做二次封装，统一请求拦截响应拦截，处理错误、token 自动刷新。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/29138894.html
+
+原标题：nestjs 权限守卫鉴权实现方案
+简介：golang hertz 反向代理与负载均衡，hertz 实现反向代理，内置负载均衡，快速搭建网关类服务。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/21359916.html
+
+原标题：Debug：并发场景下数据覆盖丢失问题定位
+简介：前端打包分包加载提速方案，前端打包做代码分包，拆分大 bundle，页面按需加载，提升首屏加载速度。
+ | 原文链接：http://www.blog.gvjavu.cn/nnqap/68246848.html
+
+?
