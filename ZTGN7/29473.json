@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计 rest 状态码合理使用指南
+简介：前端防抖节流高频事件处理，封装防抖节流工具，处理滚动、输入框输入等高频触发事件减少执行次数。
+ | 原文链接：http://book.sauypp.asia/blog/8250692.sHtMl
+
+原标题：vite 项目配置与构建提速技巧
+简介：缓存过期策略优化防业务故障，合理设置缓存过期策略，规避集中过期，减少缓存失效带来业务抖动。
+ | 原文链接：http://book.sauypp.asia/blog/8525020.sHtMl
+
+原标题：nodejs 项目 pm2 部署运维指南
+简介：eslint prettier 代码规范落地，配置 eslint 与 prettier，做代码检查格式化，统一前端团队代码风格。
+ | 原文链接：http://book.sauypp.asia/blog/2939181.sHtMl
+
+原标题：单元测试用例编写入门实操
+简介：golang go 输入数据校验防御，所有外部入参严格校验长度格式，防止恶意输入造成业务异常。
+ | 原文链接：http://book.sauypp.asia/blog/9728071.sHtMl
+
+原标题：项目实践：本地模拟缓存失效风暴验证防护
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：http://book.sauypp.asia/blog/0828960.sHtMl
+
+原标题：golang mysql 死锁排查步骤讲解
+简介：模拟登录鉴权权限判断示例，实现简易登录流程，会话状态维护，完成接口权限校验，理解身份鉴权基础逻辑。
+ | 原文链接：http://book.sauypp.asia/blog/4158283.sHtMl
+
+原标题：Troubleshooting：WSL文件权限问题大量踩坑
+简介：golang websocket 服务端开发，Go 实现 WebSocket 服务端，处理连接、消息收发，实现长连接服务。
+ | 原文链接：http://book.sauypp.asia/blog/6051171.sHtMl
+
+原标题：多套环境灵活切换配置方案
+简介：依赖安装失败全方位排错，从网络、镜像源、权限、版本多角度，定位依赖安装失败，给出对应修复手段。
+ | 原文链接：http://book.sauypp.asia/blog/9636372.sHtMl
+
+原标题：优化实践：Redis性能调优，避免大key热key
+简介：热更新开发环境配置教程，配置代码热重载，修改代码无需重启服务立即生效，大幅提升本地开发调试效率。
+ | 原文链接：http://book.sauypp.asia/blog/2939163.sHtMl
+
+原标题：Redis 分布式锁高并发安全实现
+简介：golang http client 全局变量复用，http Client 不要每次请求新建，复用 Transport 提升性能。
+ | 原文链接：http://book.sauypp.asia/blog/9495738.sHtMl
+
+原标题：golang kafka 同步异步消费对比
+简介：Git 子模块更新代码不全修复，正确更新 Git 子模块，拉取子模块完整代码，解决子模块目录为空问题。
+ | 原文链接：http://book.sauypp.asia/blog/1303916.sHtMl
+
+原标题：golang channel 通道并发处理
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://book.sauypp.asia/blog/7163515.sHtMl
+
+原标题：golang redis 缓存击穿防护实现
+简介：数据库连接及时关闭连接泄漏，确保数据库连接使用完毕释放归还连接池，杜绝连接泄漏耗尽连接。
+ | 原文链接：http://book.sauypp.asia/blog/0483404.sHtMl
+
+原标题：坑点：限流计数器重置时机错误，绕过限流规则
+简介：golang icmp ping 程序实现，go 实现 ping 工具发送 icmp 报文，检测网络连通性。
+ | 原文链接：http://book.sauypp.asia/blog/5970404.sHtMl
+
+原标题：golang 系统设计性能优化通用思路方法论
+简介：golang interface {} 类型断言类型转换，类型断言 ok 模式，避免断言失败触发 panic。
+ | 原文链接：http://book.sauypp.asia/blog/2936141.sHtMl
+
+原标题：项目脚手架模板生成工具
+简介：前端虚拟列表大数据渲染优化，实现虚拟滚动列表，只渲染可视区域 DOM，上万条数据页面流畅渲染。
+ | 原文链接：http://book.sauypp.asia/blog/4051393.sHtMl
+
+原标题：golang 分布式上下文传递方案
+简介：golang http 文件下载断点续传服务，服务端实现断点续传，支持大文件分段下载，提升大文件下载稳定性。
+ | 原文链接：http://book.sauypp.asia/blog/4147249.sHtMl
+
+原标题：实战：Redis过期回调实现业务事件通知实践
+简介：限流组件计数器令牌桶模式实现，实现计数器、令牌桶两种限流算法，封装可复用限流组件。
+ | 原文链接：http://book.sauypp.asia/blog/6259464.sHtMl
+
+原标题：实战：Docker资源监控查看容器状态实操
+简介：GET POST 接口请求参数处理，讲解两种请求方式参数传递区别，演示参数接收、解析、校验，适配不同接口调用场景。
+ | 原文链接：http://book.sauypp.asia/blog/5980475.sHtMl
+
+原标题：golang 系统设计接口幂等架构设计
+简介：golang 定时任务 cron 使用指南，Go 使用 Cron 库实现定时任务，配置 corn 表达式调度业务任务。
+ | 原文链接：http://book.sauypp.asia/blog/1817959.sHtMl
+
+原标题：Practice：模拟主从延迟业务兼容方案实践
+简介：项目目录结构规范化最佳实践，梳理源码、配置、静态资源目录划分，规范项目布局，提升代码可读性和可维护性。
+ | 原文链接：http://book.sauypp.asia/blog/2040138.sHtMl
+
+原标题：CLI 工具进度条交互效果开发
+简介：golang netlink 系统信息获取，netlink 获取系统网络信息，网卡地址，内核网络状态读取。
+ | 原文链接：http://book.sauypp.asia/blog/4999022.sHtMl
+
+原标题：golang docker 容器资源限制设置
+简介：golang go decimal 定点小数金额计算，decimal 库处理金额，规避 float64 精度丢失，财务计算。
+ | 原文链接：http://book.sauypp.asia/blog/5899860.sHtMl
+
+原标题：业务接口幂等完整落地案例
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://book.sauypp.asia/blog/4897001.sHtMl
+
+原标题：Performance：缓存策略优化，降低数据库压力
+简介：包管理器依赖冲突解决方案，分析依赖冲突产生根源，提供版本调整、锁定依赖等手段，解决项目依赖报错问题。
+ | 原文链接：http://book.sauypp.asia/blog/9613926.sHtMl
+
+原标题：大文件导出内存溢出防护
+简介：golang go mod why 查询依赖引入原因，go mod why 查询为什么引入某个包，理清依赖来源。
+ | 原文链接：http://book.sauypp.asia/blog/4159474.sHtMl
+
+原标题：实战：Redis管道批量操作性能优化实践
+简介：golang go 网络编程 net 包基础，net 包 tcp udp socket 编程，监听接收连接，读写数据。
+ | 原文链接：http://book.sauypp.asia/blog/1535148.sHtMl
+
+原标题：golang 系统设计开源项目安全漏洞处理流程
+简介：golang snowflake 时钟回拨解决方案，雪花算法处理时钟回拨，防止生成重复 ID，保证 ID 全局唯一。
+ | 原文链接：http://book.sauypp.asia/blog/8203815.sHtMl
+
+原标题：golang 限流熔断降级完整示例
+简介：golang 高并发下锁优化减少竞争，减小锁粒度，读写锁替换互斥锁，无锁编程降低锁竞争开销。
+ | 原文链接：http://book.sauypp.asia/blog/7383697.sHtMl
+
+原标题：方案设计：批量大数据导出系统架构拆解
+简介：golang 静态文件服务搭建教程，Go 搭建静态文件服务，托管静态资源，实现文件直接对外访问。
+ | 原文链接：http://book.sauypp.asia/blog/5822472.sHtMl
+
+原标题：API 接口调试与异常处理实战
+简介：Git 误提交撤销回退实操教程，演示多种撤销提交方式，区分已经推送远程和本地未提交场景，处理误提交代码。
+ | 原文链接：http://book.sauypp.asia/blog/4981470.sHtMl
+
+原标题：golang 系统设计灰度发布实现思路
+简介：golang go 比较运算符可比较类型，哪些类型可以直接 == 比较，map slice 函数不可直接比较。
+ | 原文链接：http://book.sauypp.asia/blog/7368925.sHtMl
+
+原标题：优化实践：多级缓存减少下游服务调用压力
+简介：golang http 服务性能优化调参，调优 Go HTTP 服务参数，调整连接池，提升服务并发吞吐能力。
+ | 原文链接：http://book.sauypp.asia/blog/6383692.sHtMl
+
+原标题：消息队列生产消费模型入门
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：http://book.sauypp.asia/blog/7527959.sHtMl
+
+原标题：跨域偶现失败配置修复
+简介：golang 配置热更新不重启服务，实现配置热加载，监听配置变更，更新内存配置，无需重启服务实例。
+ | 原文链接：http://book.sauypp.asia/blog/3768470.sHtMl
+
+原标题：Practice：实现接口防重提交组件实践
+简介：golang go mod replace 本地模块替换，replace 替换模块为本地目录，修改第三方库本地调试。
+ | 原文链接：http://book.sauypp.asia/blog/8693684.sHtMl
+
+原标题：安全实践：请求输入校验防御恶意参数
+简介：golang testing.TB Helper 标记辅助函数，t.Helper 标记辅助函数，报错打印真实调用位置。
+ | 原文链接：http://book.sauypp.asia/blog/2938391.sHtMl
+
+原标题：新手指南：本地防火墙端口访问失败排查
+简介：前端国际化多语言方案落地，搭建前端多语言国际化方案，切换语言，页面文本自动切换对应语种。
+ | 原文链接：http://book.sauypp.asia/blog/3048479.sHtMl
+
+原标题：部署实践：容器优雅停机配置处理信号
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：http://book.sauypp.asia/blog/0724147.sHtMl
+
+原标题：环境变量不生效问题修复
+简介：Docker 容器时区错误修复方案，修复 Docker 容器内部时区偏差，解决容器内时间不对引发业务逻辑异常。
+ | 原文链接：http://book.sauypp.asia/blog/4161474.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计技术文档维护更新最佳实践
+简介：DNS TTL 配置域名切换生效，调整 DNS 解析 TTL，缩短缓存时间，域名变更后可以快速全网生效。
+ | 原文链接：http://book.sauypp.asia/blog/4159262.sHtMl
+
+原标题：缓存穿透防护保护数据库
+简介：golang go http 文件服务器自定义，http.FileServer 自定义 FileSystem，拦截访问，增加鉴权逻辑。
+ | 原文链接：http://book.sauypp.asia/blog/1688036.sHtMl
+
+原标题：golang alertmanager 钉钉告警推送
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：http://book.sauypp.asia/blog/1903368.sHtMl
+
+原标题：golang 系统设计数据库慢查询治理方案
+简介：容器内存扩容 OOM 被杀死修复，调高容器内存限制，优化程序内存占用，避免程序被 OOM 终止。
+ | 原文链接：http://book.sauypp.asia/blog/9792370.sHtMl
+
+原标题：开发记录：网关实现接口鉴权、限流、日志打印
+简介：golang interface 接口使用避坑，interface 判 nil 坑点，理解接口底层结构，避免判空逻辑失效。
+ | 原文链接：http://book.sauypp.asia/blog/4822479.sHtMl
+
+原标题：部署复盘：容器资源限制CPU内存配置实践
+简介：nodejs 进程间通信 IPC 实操，演示 Node.js 主进程子进程 IPC 通信，进程之间传递消息数据。
+ | 原文链接：http://book.sauypp.asia/blog/5492693.sHtMl
+
+原标题：golang 系统设计告警渠道钉钉邮件企业微信集成
+简介：手写简易 RPC 服务通信原型，手写极简 RPC 原型，理解服务注册、网络传输、方法调用底层逻辑。
+ | 原文链接：http://book.sauypp.asia/blog/9603957.sHtMl
+
+原标题：前后端会话登录状态持久化
+简介：golang goroutine 泄露常见场景汇总，channel 阻塞、context 忘记取消，导致协程无法退出发生泄露。
+ | 原文链接：http://book.sauypp.asia/blog/8593702.sHtMl
+
+原标题：golang 系统设计配置灰度下发简单实现思路
+简介：golang go time 时区数据库内置，go 内置时区数据库，不用系统时区文件，容器时区不依赖系统。
+ | 原文链接：http://book.sauypp.asia/blog/3279647.sHtMl
+
+原标题：golang 系统设计开源项目维护简单经验分享
+简介：macOS 脚本执行权限开启，给 Shell 脚本添加可执行权限，解决 macOS 下脚本无法运行权限报错。
+ | 原文链接：http://book.sauypp.asia/blog/9831180.sHtMl
+
+原标题：CPU 亲和性配置负载均衡调度
+简介：接口签名校验防篡改实现，实现请求签名验签逻辑，校验请求参数未被篡改，提升接口调用安全性。
+ | 原文链接：http://book.sauypp.asia/blog/5947703.sHtMl
+
+原标题：golang es 查询语句 DSL 实操
+简介：看懂报错日志快速定位问题，讲解日志阅读方法，解析堆栈信息含义，学会从报错信息中定位代码出错位置。
+ | 原文链接：http://book.sauypp.asia/blog/7484683.sHtMl
+
+原标题：Issue：防火墙拦截ICMP，MTU问题网络丢包
+简介：服务启动依赖顺序配置正确，配置服务启动依赖关系，保证依赖服务就绪之后再启动当前业务服务。
+ | 原文链接：http://book.sauypp.asia/blog/3040392.sHtMl
+
+原标题：golang 优雅处理系统信号 SIGINT
+简介：golang go 值传递引用传递理解，go 全部为值传递，指针本质拷贝指针值，理清参数传递行为。
+ | 原文链接：http://book.sauypp.asia/blog/9314535.sHtMl
+
+原标题：批量操作分批处理防止 OOM
+简介：golang go 无锁并发编程技巧，原子操作 sync/atomic，简单场景替换锁，提升并发性能。
+ | 原文链接：http://book.sauypp.asia/blog/2837252.sHtMl
+
+原标题：记一次限流组件误配置把正常用户拦截
+简介：golang gin 中间件执行顺序讲解，理解 Gin 中间件注册顺序，区分前置后置逻辑，规避中间件顺序 bug。
+ | 原文链接：http://book.sauypp.asia/blog/5370425.sHtMl
+
+原标题：golang 系统设计限流熔断降级组合使用
+简介：WSL 文件权限访问异常修复，处理 WSL 环境文件权限错乱，调整权限配置，实现文件正常读写访问。
+ | 原文链接：http://book.sauypp.asia/blog/2047846.sHtMl
+
+原标题：快速上手搭建简易内网测试服务
+简介：golang go‑zero 框架项目快速搭建，go‑zero 脚手架生成微服务项目，api rpc 服务快速开发。
+ | 原文链接：http://book.sauypp.asia/blog/8593627.sHtMl
+
+原标题：AI‑Dev：AI辅助编码高效使用提示词技巧
+简介：nodejs 跨域中间件配置细节，Express 跨域中间件配置细节，处理预检请求，修复偶现跨域失效。
+ | 原文链接：http://book.sauypp.asia/blog/9606847.sHtMl
+
+原标题：快速启动：本地运行开源项目排障清单
+简介：服务健康检查告警监控体系，搭建健康检查加告警体系，服务异常及时推送告警通知运维人员。
+ | 原文链接：http://book.sauypp.asia/blog/9604939.sHtMl
+
+原标题：golang redis 批量 pipeline 实践
+简介：Dockerfile 编写容器打包实战，讲解 Dockerfile 指令含义，编写镜像构建脚本，将本地项目打包成可分发容器镜像。
+ | 原文链接：http://book.sauypp.asia/blog/7471393.sHtMl
+
+原标题：主干开发团队代码合并策略
+简介：移动端适配 rem vw 方案对比，对比 rem 与 vw 移动端适配方案，分析优缺点，给出选型建议。
+ | 原文链接：http://book.sauypp.asia/blog/8594917.sHtMl
+
+原标题：golang mysql 长连接短连接对比
+简介：golang 项目 makefile 脚本编写，编写 Makefile 脚本，封装编译、测试、构建命令，简化项目操作。
+ | 原文链接：http://book.sauypp.asia/blog/3041381.sHtMl
+
+原标题：golang cpu pprof 性能分析实操
+简介：golang fasthttp 高性能 http 库使用，fasthttp 高性能 http 实现，适合超高 QPS 场景，对比 net/http 差异。
+ | 原文链接：http://book.sauypp.asia/blog/9260424.sHtMl
+
+原标题：项目实践：搭建监控大盘查看系统关键指标
+简介：浏览器内存泄漏排查前端页面，梳理前端页面内存泄漏场景，讲解排查手段，修复页面内存持续上涨。
+ | 原文链接：http://book.sauypp.asia/blog/9504036.sHtMl
+
+原标题：golang 系统设计 protobuf 枚举类型规范写法
+简介：golang http 服务性能优化调参，调优 Go HTTP 服务参数，调整连接池，提升服务并发吞吐能力。
+ | 原文链接：http://book.sauypp.asia/blog/9313140.sHtMl
+
+原标题：开发记录：跨域中间件完整配置与边界处理
+简介：golang redis 客户端业务使用，Go Redis 客户端对接，实现缓存、计数器，适配各类 Redis 业务场景。
+ | 原文链接：http://book.sauypp.asia/blog/5335252.sHtMl
+
+原标题：架构复盘：消息队列在业务系统中边界与最佳实践
+简介：Git 代码冲突正确处理方式，讲解冲突产生场景，演示冲突文件修改，正确合并代码，防止代码丢失。
+ | 原文链接：http://book.sauypp.asia/blog/1850392.sHtMl
+
+原标题：部署实践：数据库迁移脚本版本管理实践
+简介：golang 延迟队列实现方案对比，时间轮、redis zset 实现延迟队列，处理延时执行业务。
+ | 原文链接：http://book.sauypp.asia/blog/5238270.sHtMl
+
+原标题：实战项目：GitHubAction自动测试构建实践
+简介：golang 分库分表 id 路由规则设计，分库分表 id 路由算法，id 映射库表，数据均匀打散避免热点分片。
+ | 原文链接：http://book.sauypp.asia/blog/3262584.sHtMl
+
+原标题：实战项目：GitSubmodule管理多仓库实践
+简介：golang http.Server 配置参数详解，ReadTimeout WriteTimeout IdleTimeout，全方位防护慢请求攻击。
+ | 原文链接：http://book.sauypp.asia/blog/4261406.sHtMl
+
+原标题：部署复盘：蓝绿发布实现零停机业务更新
+简介：golang 定时任务 cron 使用指南，Go 使用 Cron 库实现定时任务，配置 corn 表达式调度业务任务。
+ | 原文链接：http://book.sauypp.asia/blog/7494705.sHtMl
+
+原标题：踩坑：消息队列消息堆积，消费者处理能力不足
+简介：WebSocket 断线重连稳定优化，增加 WebSocket 断线自动重连逻辑，处理网络抖动，维持长连接稳定。
+ | 原文链接：http://book.sauypp.asia/blog/1537370.sHtMl
+
+原标题：安全实践：容器最小化镜像减少攻击面
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：http://book.sauypp.asia/blog/1928030.sHtMl
+
+原标题：开发复盘：内存缓存LRU淘汰策略实现实践
+简介：业务错误码完整落地实践，落地完整业务错误码，枚举全部业务异常，统一返回，配套文档说明。
+ | 原文链接：http://book.sauypp.asia/blog/6380606.sHtMl
+
+原标题：TCP 长连接参数优化 TIME_WAIT
+简介：golang 容器内读取 k8s 配置 configmap，程序读取 k8s configmap 配置，配置与镜像分离便于运维。
+ | 原文链接：http://book.sauypp.asia/blog/8504625.sHtMl
+
+原标题：优化实践：批量操作性能优化，减少数据库IO
+简介：golang go 爬虫请求速率控制，爬虫限频、代理轮换，设置 UA，防止爬虫被目标站点封禁 IP。
+ | 原文链接：http://book.sauypp.asia/blog/0725141.sHtMl
+
+原标题：复盘总结：系统压测报告模板与分析思路
+简介：nodejs 内存溢出问题排查修复，Node.js 程序 OOM 排查流程，定位内存泄露，调整内存限制修复崩溃。
+ | 原文链接：http://book.sauypp.asia/blog/3050368.sHtMl
+
+原标题：Practice：实现接口防重提交组件实践
+简介：golang 分库分表简单路由实现，简易分表路由逻辑实现，根据分片 key 计算分片位置，数据路由写入。
+ | 原文链接：http://book.sauypp.asia/blog/7416248.sHtMl
+
+原标题：golang 系统设计 tcp keepalive 参数调优实践
+简介：上传接口跨域配置特殊适配，针对文件上传接口，适配复杂请求，修复上传场景下跨域失效问题。
+ | 原文链接：http://book.sauypp.asia/blog/2938036.sHtMl
+
+三、实战开发｜Practice
+原标题：golang docker 容器资源限制设置
+简介：大文件导出内存溢出防护，流式处理大文件导出，边读边写，不把全部数据加载内存，规避 OOM。
+ | 原文链接：http://book.sauypp.asia/blog/6379470.sHtMl
+
+原标题：golang 系统设计接口返回格式统一规范
+简介：golang 消息队列中间件选型对比，kafka redis‑stream rabbitmq，对比吞吐量可靠性选型参考。
+ | 原文链接：http://book.sauypp.asia/blog/6381606.sHtMl
+
+原标题：golang 系统设计消息 key 选择保证顺序性方案
+简介：react hooks 常见陷阱避坑指南，梳理 React Hooks 高频踩坑点，依赖数组、闭包陷阱，写出稳定组件。
+ | 原文链接：http://book.sauypp.asia/blog/3938473.sHtMl
+
+原标题：Practice：手写简易限流组件，计数器、令牌桶实现
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：http://book.sauypp.asia/blog/1483625.sHtMl
+
+原标题：golang kafka 死信队列业务落地
+简介：golang http.Server 配置参数详解，ReadTimeout WriteTimeout IdleTimeout，全方位防护慢请求攻击。
+ | 原文链接：http://book.sauypp.asia/blog/2938252.sHtMl
+
+原标题：Practice：实现定时任务动态启停管理接口
+简介：golang ioutil 已废弃替换方案，ioutil 废弃之后替换为 os io 包函数，更新旧项目代码。
+ | 原文链接：http://book.sauypp.asia/blog/9616958.sHtMl
+
+原标题：实践：代码提交前自动格式化校验配置实践
+简介：golang http 文件下载断点续传服务，服务端实现断点续传，支持大文件分段下载，提升大文件下载稳定性。
+ | 原文链接：http://book.sauypp.asia/blog/5980702.sHtMl
+
+原标题：设计思考：分布式会话架构选型对比
+简介：golang gin 中间件执行顺序讲解，理解 Gin 中间件注册顺序，区分前置后置逻辑，规避中间件顺序 bug。
+ | 原文链接：http://book.sauypp.asia/blog/4857380.sHtMl
+
+原标题：代码格式化工具团队统一风格
+简介：前端图片懒加载性能优化，实现图片懒加载，页面可视区域才加载图片，减少页面初始网络请求。
+ | 原文链接：http://book.sauypp.asia/blog/7489578.sHtMl
+
+原标题：内存泄漏定位分析完整流程
+简介：golang 定时任务 cron 使用指南，Go 使用 Cron 库实现定时任务，配置 corn 表达式调度业务任务。
+ | 原文链接：http://book.sauypp.asia/blog/5302817.sHtMl
+
+原标题：golang 系统设计网络超时故障排查思路
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://book.sauypp.asia/blog/7483713.sHtMl
+
+原标题：golang 系统设计逻辑删除物理删除选型对比
+简介：热更新开发环境配置教程，配置代码热重载，修改代码无需重启服务立即生效，大幅提升本地开发调试效率。
+ | 原文链接：http://book.sauypp.asia/blog/8481705.sHtMl
+
+原标题：golang 系统设计限流熔断降级组合使用
+简介：golang go‑zero 中间件鉴权限流，go‑zero 自定义中间件，实现鉴权、限流、日志打印通用能力。
+ | 原文链接：http://book.sauypp.asia/blog/2535141.sHtMl
+
+原标题：Security：接口鉴权越权漏洞检测与修复
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：http://book.sauypp.asia/blog/2524039.sHtMl
+
+原标题：golang k8s helm chart 简单编写
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：http://book.sauypp.asia/blog/0717928.sHtMl
+
+原标题：golang 系统设计 go netpoll 多路复用简单理解
+简介：golang go 调用动态链接库 so 文件，go 加载 so 动态库调用函数，复用编译好的 C 动态库。
+ | 原文链接：http://book.sauypp.asia/blog/4168473.sHtMl
+
+原标题：golang 系统设计高可用服务架构梳理
+简介：golang ctx 传递规则不要存结构体，context 作为函数参数传递，禁止放入结构体字段存储。
+ | 原文链接：http://book.sauypp.asia/blog/9694702.sHtMl
+
+原标题：Architecture：安全防护架构XSSCSRFSQL注入防御
+简介：golang go time 时区数据库内置，go 内置时区数据库，不用系统时区文件，容器时区不依赖系统。
+ | 原文链接：http://book.sauypp.asia/blog/4151402.sHtMl
+
+原标题：Practice：手写简易限流组件，计数器、令牌桶实现
+简介：Docker 容器入门镜像实操教程，介绍 Docker 基础概念，演示镜像拉取、容器启停，帮助新手建立容器化开发认知。
+ | 原文链接：http://book.sauypp.asia/blog/7494837.sHtMl
+
+原标题：Debug：Websocket频繁断开重连根因分析
+简介：golang os.Exit 退出程序注意 defer 不执行，os.Exit 会直接退出，不会执行 defer，优雅退出不要直接 os.Exit。
+ | 原文链接：http://book.sauypp.asia/blog/5268483.sHtMl
+
+原标题：操作系统内核版本适配服务
+简介：golang go cover 覆盖率报告生成，go test‑cover 生成测试覆盖率，html 可视化查看未覆盖代码行。
+ | 原文链接：http://book.sauypp.asia/blog/2939252.sHtMl
+
+原标题：部署复盘：静态站点部署CDN完整流程
+简介：Docker 容器网络不通排查，排查容器网络模式、端口映射、防火墙，解决容器之间、容器外部网络不通。
+ | 原文链接：http://book.sauypp.asia/blog/3049281.sHtMl
+
+原标题：golang 系统设计内存复用 sync.pool 使用
+简介：golang kafka 消费者组重平衡避坑，规避消费者组频繁 rebalance，减少消费抖动，保障消息消费稳定性。
+ | 原文链接：http://book.sauypp.asia/blog/2594737.sHtMl
+
+原标题：安全复盘：CSRF跨站请求伪造防护配置
+简介：golang io.MultiReader MultiWriter 拼接流，多个 reader 拼接，多 writer 同时写入一份数据。
+ | 原文链接：http://book.sauypp.asia/blog/5201392.sHtMl
+
+原标题：Troubleshoot：DNS解析异常导致第三方调用失败
+简介：golang 性能压测 wr 工具实操指南，wr 压测工具对 Go 接口压测，观察 QPS 延迟，定位接口性能瓶颈。
+ | 原文链接：http://book.sauypp.asia/blog/0712717.sHtMl
+
+原标题：方案对比：同步事务vs事务消息最终一致性
+简介：golang gorm group by 分组统计，GORM 分组聚合统计，实现 count sum 等统计查询，快速完成统计业务。
+ | 原文链接：http://book.sauypp.asia/blog/8590495.sHtMl
+
+原标题：架构复盘：供应链安全架构依赖包风险治理
+简介：golang 时间轮算法实现延时调度，手写简易时间轮，高并发大量延时任务，降低轮询 CPU 消耗。
+ | 原文链接：http://book.sauypp.asia/blog/9608069.sHtMl
+
+原标题：Hands‑on：简易ID生成雪花算法完整实现
+简介：golang go 终端 pty 伪终端操作，pty 启动子进程，模拟终端交互，实现交互式命令调用。
+ | 原文链接：http://book.sauypp.asia/blog/1527858.sHtMl
+
+原标题：实战：接口压力测试实操，定位系统瓶颈
+简介：golang 异步任务队列 worker 池开发，任务入数据库或 redis，worker 池消费执行，异步处理耗时业务。
+ | 原文链接：http://book.sauypp.asia/blog/5494624.sHtMl
+
+原标题：golang 系统设计大流量削峰处理方案
+简介：多线程线程安全脏数据规避，梳理多线程共享变量，做好同步控制，避免并发修改产生脏数据。
+ | 原文链接：http://book.sauypp.asia/blog/7079583.sHtMl
+
+原标题：golang 系统设计配置中心核心能力梳理讲解
+简介：JSON XML 数据解析处理示例，演示两种格式数据解析与序列化，增加异常捕获，处理格式错乱导致解析失败。
+ | 原文链接：http://book.sauypp.asia/blog/0614929.sHtMl
+
+原标题：安全复盘：业务接口越权测试与修复实践
+简介：golang contract 契约测试微服务，微服务契约测试，保证接口变更不破坏调用方，提前发现兼容性问题。
+ | 原文链接：http://book.sauypp.asia/blog/1827252.sHtMl
+
+原标题：Mock 接口服务快速搭建实操
+简介：golang go 并发模式 fan‑out fan‑in，fanout 分发任务 fanin 汇总结果，多协程并发处理任务。
+ | 原文链接：http://book.sauypp.asia/blog/6383414.sHtMl
+
+原标题：快速上手调试工具定位简单代码错误
+简介：前端权限路由动态生成实现，根据后端返回权限，动态生成前端路由菜单，实现页面权限控制。
+ | 原文链接：http://book.sauypp.asia/blog/9617031.sHtMl
+
+原标题：排错：打包后资源路径，开发生产行为不一致
+简介：golang cgo 调用 C 语言代码示例，cgo 调用 C 函数，go 与 C 互相调用，对接 C 语言库能力。
+ | 原文链接：http://book.sauypp.asia/blog/2161392.sHtMl
+
+原标题：多套环境灵活切换配置方案
+简介：golang go test 单元测试命令参数详解，gotest 参数覆盖率，指定测试用例，跳过测试，单元测试命令实操。
+ | 原文链接：http://book.sauypp.asia/blog/1805039.sHtMl
+
+原标题：golang 系统设计 monorepo 仓库管理方案
+简介：极简方式搭建个人技术文档站点，使用轻量化工具快速部署文档站点，支持 markdown 编写，实现知识沉淀与对外分享。
+ | 原文链接：http://book.sauypp.asia/blog/0726257.sHtMl
+
+原标题：Architecture：CI/CD流水线架构完整设计思考
+简介：golang go 服务日志输出 journald，systemd journald 接收程序 stdout 日志，统一管理服务日志。
+ | 原文链接：http://book.sauypp.asia/blog/4179474.sHtMl
+
+原标题：Dockerfile 编写容器打包实战
+简介：golang tcp 连接泄露排查定位，netstat 查看连接状态，找出未正常关闭连接，定位连接泄漏代码。
+ | 原文链接：http://book.sauypp.asia/blog/9313014.sHtMl
+
+原标题：后端登录鉴权模块完整开发
+简介：golang rate 令牌桶限流器源码理解，拆解令牌桶限流核心逻辑，理解令牌生成消耗，掌握限流底层原理。
+ | 原文链接：http://book.sauypp.asia/blog/2939182.sHtMl
+
+四、架构设计｜Architecture
+原标题：golang gitlab ci 配置自动构建镜像
+简介：程序预加载加快服务启动速度，把高频使用资源提前预加载，减少请求阶段初始化，加快服务启动。
+ | 原文链接：http://book.sauypp.asia/blog/0784638.sHtMl
+
+原标题：Troubleshoot：跨库关联查询，性能急剧恶化
+简介：WSL 搭建 Windows Linux 开发环境，配置 WSL 环境，在 Windows 系统使用 Linux 工具链，适配 Linux 开发项目。
+ | 原文链接：http://book.sauypp.asia/blog/6371604.sHtMl
+
+原标题：多操作系统开发兼容处理
+简介：golang go 模块迁移从 GOPATH 到 GoMod，老项目从 GOPATH 迁移 go mod，解决依赖管理混乱问题。
+ | 原文链接：http://book.sauypp.asia/blog/4158472.sHtMl
+
+原标题：golang 系统设计缓存预热缓存降级实现
+简介：golang 接口返回统一封装工具，封装 Go 接口统一返回工具，标准化成功失败返回结构体。
+ | 原文链接：http://book.sauypp.asia/blog/0718950.sHtMl
+
+原标题：golang minio 存储桶权限管控配置
+简介：golang go 测试文件命名规范，_test.go 测试文件，TestXxx 单元测试函数命名规范。
+ | 原文链接：http://book.sauypp.asia/blog/3049061.sHtMl
+
+原标题：Practice：实现多数据源动态切换组件实践
+简介：代码格式化工具团队统一风格，接入格式化工具，统一全团队代码书写风格，减少格式类 git 冲突。
+ | 原文链接：http://book.sauypp.asia/blog/8605937.sHtMl
+
+原标题：浏览器本地存储安全使用技巧
+简介：golang go 单二进制文件静态编译交叉编译，交叉编译不同操作系统架构二进制文件，实现一次编译多平台运行。
+ | 原文链接：http://book.sauypp.asia/blog/8591699.sHtMl
+
+原标题：安全实践：防止JSON解析漏洞恶意payload
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：http://book.sauypp.asia/blog/1824848.sHtMl
+
+原标题：安全实践：生产环境禁止开启debug调试模式
+简介：golang go mod exclude 排除依赖版本，exclude 排除有问题依赖版本，规避有 bug 的第三方包。
+ | 原文链接：http://book.sauypp.asia/blog/4160573.sHtMl
+
+原标题：性能复盘：内存泄漏定位，内存持续上涨优化
+简介：golang kafka 消费者位移管理，理解 kafka offset，手动提交位移，保证消息消费至少一次语义。
+ | 原文链接：http://book.sauypp.asia/blog/9613808.sHtMl
+
+原标题：安全实践：请求输入校验防御恶意参数
+简介：golang 跨平台系统差异处理方案，处理 windows linux mac 路径、信号、文件权限差异，代码跨平台兼容。
+ | 原文链接：http://book.sauypp.asia/blog/2046164.sHtMl
+
+原标题：新手向：配置项目eslint/prettier代码格式化
+简介：golang rate‑limiter 限流组件，封装通用 Go 限流组件，支持多算法，业务接口直接复用调用。
+ | 原文链接：http://book.sauypp.asia/blog/4158360.sHtMl
+
+原标题：排错：macOS权限保护导致脚本执行被拦截
+简介：golang hertz 性能优化参数调优，hertz 连接池、缓冲区参数调优，最大化接口吞吐性能。
+ | 原文链接：http://book.sauypp.asia/blog/7505586.sHtMl
+
+原标题：golang docker 部署 mysql 注意事项
+简介：极简 API 网关路由转发实现，开发极简网关服务，完成请求路由转发，理解网关基础实现原理。
+ | 原文链接：http://book.sauypp.asia/blog/2942404.sHtMl
+
+原标题：golang es 映射 mapping 设计避坑
+简介：golang 负载均衡轮询加权轮询实现，手写负载均衡算法，轮询、加权轮询分发请求到后端节点。
+ | 原文链接：http://book.sauypp.asia/blog/0383804.sHtMl
+
+原标题：golang es bool 查询条件组合技巧
+简介：golang http3 quic 客户端服务端示例，go 实现 http3 quic 服务端客户端，体验 quic 协议低延迟特性。
+ | 原文链接：http://book.sauypp.asia/blog/4267070.sHtMl
+
+原标题：架构复盘：系统扩容缩容架构无状态优先原则
+简介：git cherry‑pick 规范操作防 bug，规范 cherry‑pick 使用流程，处理冲突，避免错误引入不兼容代码。
+ | 原文链接：http://book.sauypp.asia/blog/9627950.sHtMl
+
+原标题：TCP 长连接参数优化 TIME_WAIT
+简介：服务器 Swap 关闭提升响应速度，关闭服务器 Swap 交换分区，避免内存交换磁盘拖慢程序响应性能。
+ | 原文链接：http://book.sauypp.asia/blog/4168404.sHtMl
+
+?
